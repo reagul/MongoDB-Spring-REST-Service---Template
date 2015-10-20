@@ -1,11 +1,10 @@
-## MongoDB Spring REST Service - Example 1
-Author: Niclas Tegnér
+## MongoDB Spring REST Service - Template 
+Author: Ravi Jagannathan  
 
 This is an example of a REST service that loads and stores json data using Mongo DB. 
 
 ### Preparations
-Mongo DB must be installed on your local machine. Please [download Mongo DB][1]
-and follow [the install instructions][2]. 
+Mongo DB  and TOMCAT must be installed on your local machine. MongoDB is assumed to run on Localhost.
 
 ### Feature highlights
 - Rest service with CRUD support.
@@ -53,4 +52,9 @@ GET will get all contacts in the Databse EMCRESTDB and collection contact.
 
 ```
 The API supports PUT / DELETE / POST.
+```
+Modify to suite your API needs.
+```
+- Point to MongoDB running on remote server by mpdifying the Localhost param found in MongoDB config class.
+- Change the model class to suite your own model. Here we are assuming the "contact" model with example JSON agiven above.
 ```
