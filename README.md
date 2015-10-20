@@ -28,6 +28,7 @@ Make sure the MongoDB has a Database Called EMCRESTDB and collection called "con
 We are assuming that MongoDB service will run on Localhost on port 27017.
 Better to pre-populate the Collection "contact" with dummy data.
 Start with GET and progress from there to POST / PUT / DELETE 
+Here is a sample JSON Data you can insert and GET.
 
 ```
 ```JSON DATA 
