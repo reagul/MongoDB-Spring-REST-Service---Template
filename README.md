@@ -30,7 +30,7 @@ Start with GET and progress from there to POST / PUT / DELETE
 Here is a sample JSON Data you can insert and GET.
 
 ```
-```JSON DATA 
+```
 {
     "firstName" : "Handsome",
     "lastName" : "Paul",
